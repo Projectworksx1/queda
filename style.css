@@ -1,6 +1,6 @@
 @media print {
   body {
-    font-size: 12pt;
+    font-size: 14pt;
   }
 }
 
@@ -8,12 +8,12 @@
 body {
   font-family: arial,sans-serif;
   max-width: 1000px;
-  margin: 30px auto;
+  margin: 25px auto;
 }
 
 header {
   width: 1000px;
-  height: 120px;
+  height: 150px;
   border: 3px solid black;
 }
 
@@ -44,11 +44,6 @@ header select {
   font-weight: bold;
 }
 
-.maquina-1  label,input {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .maquina-1 {
   display: flex;
   justify-content: center;
@@ -64,7 +59,7 @@ header select {
 
 .maquina-1 ul {
   list-style: none;
-  padding: 10px;
+  padding: 23px;
   border: 3px solid black;
   
 }
@@ -113,7 +108,6 @@ header select {
 
 .inf {
   text-align: center;
-  border-TOP: 3px solid black;
 }
 
 .inf span {
@@ -127,4 +121,21 @@ header select {
 
 .obs textarea {
   width: 700px;
+}
+
+.obs p {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+@media print{
+   #noprint{
+       display:none;
+   }
+}
+
+@page{
+  size: auto;
+  margin: 0mm;
 }
