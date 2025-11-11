@@ -1,0 +1,114 @@
+@media print {
+  body {
+    font-size: 12pt;
+  }
+}
+
+
+body {
+  font-family: arial,sans-serif;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+header {
+  width: 1000px;
+  height: 120px;
+  border: 3px solid black;
+}
+
+header h1 {
+text-align: center;
+}
+
+
+.topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+header label {
+  display: flex;
+  flex-direction: column;
+}
+
+header input {
+  font-weight: bold;
+  font-size: large;
+}
+
+header select {
+  font-weight: bold;
+}
+
+.maquina-1  label,input {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.maquina-1 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+
+}
+
+.maquina-1 h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+.maquina-1 ul {
+  justify-content: center;
+  gap: 5px;
+  list-style: none;
+  border: 1px solid black;
+  padding: 10px;
+  
+}
+
+.maquina-1 input {
+  width: 150px;
+  font-size: large;
+  font-weight: bold;
+  gap: 5px;
+}
+
+.maquina-1 li {
+  display: flex;
+  align-items:center;
+  gap: 8px;
+}
+
+.maquina-1 textarea {
+  font-size: large;
+  width: 300px;
+  font-weight: bold;
+}
+
+#motivo {
+  display: flex;
+  align-items: flex-start;
+  font-size: large;
+}
+
+.maquina-1 p {
+  
+}
+
+.maquina-1 p input {
+  width: 300px;
+}
+
+.m1 {
+  border: 3px solid black;
+}
+
+.m1 h2 {
+  text-align: center;
+  font-size: 40px;
+}
