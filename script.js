@@ -1,3 +1,3 @@
-    document.getElementById("btnImprimir").onclick = function() {
-        window.print();
-    }
+document.getElementById("btnImprimir").onclick = function() {
+window.print();
+}

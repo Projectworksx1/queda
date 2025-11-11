@@ -1,364 +1,130 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PLANILHA</title>
-   <link rel="stylesheet" type="text/css" href="style.css">
-<body>
-<header>
-<h1>JUSTIFICATIVAS PARA QUEDA DE QUALIDADE</h1>
-<div class="topo">
-    <input type="date">
-    <label>LIDER: </label><input text>
-    <label>LETRA: </label>
-    <select>
-      <option>Selecione</option>
-      <option>A</option>
-      <option>B</option>
-      <option>C</option>
-      <option>D</option>
-    </select>
-</div>
-</header>
-<div class="m1">
-<h2>MAQUINA 1</h2>
-<div class="maquina-1">
-<ul>
-    <li>
-    <label>SERIE: </label><input text>
-  </li>
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-   
-<ul>
-    <li>
-    <label>SERIE: </label><input text>
-  </li>
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-</div>
-<div class="maquina-1">
-<ul>
+@media print {
+  body {
+    font-size: 12pt;
+  }
+}
 
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-   
-<ul>
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-</div>
-<div class="maquina-1">
-<ul>
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-   
-<ul>
 
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-</div>
-<div class="maquina-1">
-<ul>
+body {
+  font-family: arial,sans-serif;
+  max-width: 1000px;
+  margin: 30px auto;
+}
 
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-   
-<ul>
+header {
+  width: 1000px;
+  height: 120px;
+  border: 3px solid black;
+}
 
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-</div>
-<div class="maquina-1">
-<ul>
+header h1 {
+text-align: center;
+}
 
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-   
-<ul>
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-</div>
-</div>
-<div class="m1">
-<h2>MAQUINA 2</h2>
-<div class="maquina-1">
-<ul>
-    <li>
-    <label>SERIE: </label><input text>
-  </li>
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-   
-<ul>
-    <li>
-    <label>SERIE: </label><input text>
-  </li>
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-</div>
-<div class="maquina-1">
-<ul>
 
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-   
-<ul>
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-</div>
-<div class="maquina-1">
-<ul>
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-   
-<ul>
+.topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-</div>
-<div class="maquina-1">
-<ul>
+}
 
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-   
-<ul>
+header label {
+  display: flex;
+  flex-direction: column;
+}
 
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-</div>
-<div class="maquina-1">
-<ul>
+header input {
+  font-weight: bold;
+  font-size: large;
+}
 
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-   
-<ul>
-  <li>
-    <label>CORRIDA: </label><input text>
-  </li>
-  <li>
-    <label>MATERIAL: </label><input text>
-  </li>
-  <li>
-    <label>PLACA: </label><input text>
-  </li>
-  <li id="motivo">
-    <label>MOTIVO: </label><textarea rows="4"></textarea>
-  </li>
-</ul>
-</div>
-</div>
-<button id="btnImprimir">Imprimir Página</button>
-</body>
-</html>
+header select {
+  font-weight: bold;
+}
+
+.maquina-1  label,input {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.maquina-1 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+
+}
+
+.maquina-1 h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+.maquina-1 ul {
+  list-style: none;
+  padding: 10px;
+  border: 3px solid black;
+  
+}
+
+.maquina-1 input {
+  width: 150px;
+  font-size: large;
+  font-weight: bold;
+  gap: 5px;
+}
+
+.maquina-1 li {
+  display: flex;
+  align-items:center;
+  gap: 8px;
+}
+
+.maquina-1 textarea {
+  font-size: large;
+  width: 300px;
+  font-weight: bold;
+}
+
+#motivo {
+  display: flex;
+  align-items: flex-start;
+  font-size: large;
+}
+
+.maquina-1 p {
+  
+}
+
+.maquina-1 p input {
+  width: 300px;
+}
+
+.m1 {
+  border: 3px solid black;
+}
+
+.m1 h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.inf {
+  text-align: center;
+  border-TOP: 3px solid black;
+}
+
+.inf span {
+  font-weight: bold;
+}
+
+.obs {
+  display: flex;
+  justify-content: center;
+}
+
+.obs textarea {
+  width: 700px;
+}

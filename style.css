@@ -110,3 +110,21 @@ header select {
   text-align: center;
   font-size: 40px;
 }
+
+.inf {
+  text-align: center;
+  border-TOP: 3px solid black;
+}
+
+.inf span {
+  font-weight: bold;
+}
+
+.obs {
+  display: flex;
+  justify-content: center;
+}
+
+.obs textarea {
+  width: 700px;
+}
